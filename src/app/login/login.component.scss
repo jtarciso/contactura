@@ -1,8 +1,11 @@
-:host{
+body{
+    
     display: flex;
     justify-content: center;
-    margin: 180px 0px;
+    align-items: center;
+    background-image: linear-gradient(to bottom,  #6E90E0, #5707F0);
 }
+
 
 .example-card {
     max-width: 400px;
