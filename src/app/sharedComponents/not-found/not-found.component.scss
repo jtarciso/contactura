@@ -1,60 +1,54 @@
-:host {
+body {
    display: flex;
     justify-content: center;
+    align-items: center;
+    background-image: url('../../../assets/img/ImagemFundoTransparente.png');
+    
 }
 
-.imgBackground {
-   width: 100vw;
-   height: 100vh;
-   background-image: url('../../../assets/img/ImagemFundoTransparente.png');
-  
-}
-.giflego {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%) translateY(50%);
-    bottom: 70%;
- 
+.imagens {
+    max-width: 100%;
 }
 
-.img404 {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%) translateY(50%);
-    bottom: 45%;
- 
+img {
+    width: 400px;
 }
 
-h1{
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%) translateY(50%);
-    bottom: 25%;
-    font-family:Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 100px;
-    color: #5707F0;
+h1 {
+display:flex;
+justify-content: center;
+font-size: 100px;
+font-family: Arial;
+font-weight: bolder;
+font-style: italic;
+color: darkgreen;
 
+}
+
+h3 {
+    display: flex;
+    font-family: Arial;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 20px;
 }
 
 .button {
-
-    position: absolute;
-    left: 45%;
-    transform: translateX(-50%) translateY(50%);
-    padding: 15px;
-    background-color: #5707F0;
+    display:inline-block;
+    
+    background-color: #057a32;
     color: white;
+    padding: 10px;
     cursor: pointer;
     border-radius: 5px;
-    bottom: 15%
-    
     
 }
 
-.link {
-    position: absolute;
-    right: 40%;
-    transform: translateX(-50%) translateY(50%);
-    bottom: 15%
+.alinhamentoButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0, 15px;
 }
+
+
