@@ -1,11 +1,18 @@
-body{
+:host{
+    justify-content: center;
+    align-items: center;
     
+}
+
+.container-login {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to bottom,  #6E90E0, #5707F0);
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(to bottom,  #6E90E0, #5707F0);
-}
 
+}
 
 .example-card {
     max-width: 100%;
