@@ -10,6 +10,7 @@ import { ListaUsuariosComponent } from './lista-usuarios/lista-usuarios.componen
 import { FormUsuariosComponent } from './form-usuarios/form-usuarios.component';
 import { FormContatosComponent } from './form-contatos/form-contatos.component';
 import { NotFoundComponent } from './sharedComponents/not-found/not-found.component';
+import { NavbarComponent } from './sharedComponents/navbar/navbar.component';
 import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
 
@@ -17,7 +18,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
 import { MatInputModule } from '@angular/material/input';
-import { NavbarComponent } from './sharedComponents/navbar/navbar.component';
+import { MatMenuModule } from '@angular/material/menu';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { NavbarComponent } from './sharedComponents/navbar/navbar.component';
     FormContatosComponent,
     NotFoundComponent,
     NavbarComponent
+    
   ],
   imports: [
     BrowserModule,
@@ -37,6 +39,7 @@ import { NavbarComponent } from './sharedComponents/navbar/navbar.component';
     MatCardModule,
     MatButtonModule,
     MatInputModule,
+    MatMenuModule,
     FormsModule,
     ReactiveFormsModule
   ],
